@@ -1,10 +1,10 @@
 {
-  "name": "@nestjs/cache-manager",
-  "version": "3.0.1",
+  "name": "@duongtrungnguyen/nest-caching",
+  "version": "1.0.0",
   "description": "Nest - modern, fast, powerful node.js web framework (@cache-manager)",
   "author": "Kamil Mysliwiec",
   "license": "MIT",
-  "url": "https://github.com/nestjs/cache-manager#readme",
+  "url": "https://github.com/duongtrungnguyenrc/cache-manager#readme",
   "scripts": {
     "build": "rimraf -rf dist && tsc -p tsconfig.json",
     "format": "prettier --write \"{lib,test}/**/*.ts\"",
@@ -54,7 +54,7 @@
   "peerDependencies": {
     "@nestjs/common": "^9.0.0 || ^10.0.0 || ^11.0.0",
     "@nestjs/core": "^9.0.0 || ^10.0.0 || ^11.0.0",
-    "cache-manager": ">=6",
+    "cache-manager": ">=4",
     "keyv": ">=5",
     "rxjs": "^7.8.1"
   },
